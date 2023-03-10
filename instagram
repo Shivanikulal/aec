@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int x,y;
+    cout<<"enter the number of following:"<<endl;
+    cin>>x;
+    cout<<"enter the number of followers: "<<endl;
+    cin>>y;
+    if(x*10>y)
+    {
+        cout<<"scam account"<<endl;
+    }
+    else
+    {
+        cout<<"not a scam account"<<endl;
+    }
+}
