@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+    int t,x,y,ch,i;
+   cout<<"how many test cases you want";
+         cin>>t;
+ for(i=1;i<=t;i++){
+         if(ch==1){
+   
+        cout<<"enter the first chocolate rate"<<endl;
+        cin>>x;
+        cout<<"enter the second chocolate rate"<<endl;
+        cin>>y;
+        if(x<y)
+        {
+            cout<<"you can buy first chocolate"<<endl;
+        }
+        else if(x>y)
+        {
+            cout<<"you can buy second chocolate"<<endl;
+        }
+        else
+        {
+            cout<<"you can buy any one"<<endl;
+        }
+         }
+          cout<<"press 1 if you want to continue else press 0";
+         cin>>ch;
+      }
+    }
+
